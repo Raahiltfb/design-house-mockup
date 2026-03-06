@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design House | Creative Architecture Group</title>
+    <meta
+      name="description"
+      content="Design House creates modern Punjabi house elevations, luxury bungalow concepts, duplex homes, floor plans, and cinematic 3D visualizations."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="intro" aria-hidden="true">
+      <div class="intro-grid"></div>
+      <div class="intro-glow"></div>
+      <svg viewBox="0 0 1200 700" class="blueprint" xmlns="http://www.w3.org/2000/svg">
+        <g id="bp-lines" class="bp-lines">
+          <path d="M190 490 L380 330 L560 330 L700 250 L910 250 L1030 360 L1030 490 Z" />
+          <path d="M260 490 L260 390 L370 390 L370 490" />
+          <path d="M430 490 L430 370 L530 370 L530 490" />
+          <path d="M615 490 L615 350 L735 350 L735 490" />
+          <path d="M780 490 L780 320 L910 320 L910 490" />
+          <path d="M830 390 L980 390" />
+          <path d="M710 250 L710 190" />
+          <path d="M640 190 L780 190" />
+          <path d="M660 490 L660 420" />
+        </g>
+        <g id="components" class="components">
+          <rect class="piece beam" x="282" y="352" width="220" height="14" />
+          <rect class="piece wall" x="270" y="392" width="18" height="96" />
+          <rect class="piece wall" x="520" y="372" width="18" height="118" />
+          <rect class="piece panel" x="788" y="332" width="116" height="58" />
+          <rect class="piece stair" x="618" y="410" width="92" height="80" />
+          <rect class="piece balcony" x="838" y="390" width="156" height="16" />
+        </g>
+      </svg>
+      <div class="intro-title">DESIGN HOUSE</div>
+    </div>
+
+    <main id="app" class="is-hidden">
+      <header class="site-header">
+        <div class="logo-wrap">
+          <img
+            src="assets/design-house-logo.svg"
+            alt="Design House"
+            class="logo-image"
+          />
+          <div class="logo-text">
+            <strong>Design House</strong>
+            <span>Creative Architecture Group</span>
+          </div>
+        </div>
+        <nav class="main-nav">
+          <a href="#home" data-i18n="navHome">Home</a>
+          <a href="#projects" data-i18n="navProjects">Projects</a>
+          <a href="#process" data-i18n="navServices">Services</a>
+          <a href="#instagram" data-i18n="navInstagram">Instagram</a>
+          <a href="#contact" data-i18n="navContact">Contact</a>
+        </nav>
+        <button class="lang-toggle" id="langToggle" aria-label="Toggle language">
+          <span data-lang="en" class="active">English</span>
+          <span data-lang="pa">ਪੰਜਾਬੀ</span>
+        </button>
+      </header>
+
+      <section id="home" class="hero parallax">
+        <div class="hero-grid-overlay"></div>
+        <img
+          src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=2000&q=80"
+          alt="Modern Punjabi luxury house render"
+          class="hero-bg"
+        />
+        <div class="hero-content reveal">
+          <p class="eyebrow">PB31 HOUSE DESIGNER</p>
+          <h1 data-i18n="heroTitle">Designing Modern Homes That Stand Out</h1>
+          <p data-i18n="heroSub">
+            Creative Architecture Group designs modern house elevations, luxury residences, and custom homes across Punjab.
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary" data-i18n="ctaExplore">Explore House Designs</a>
+            <a href="#contact" class="btn btn-secondary" data-i18n="ctaStart">Start Your Home Design</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="showcase">
+        <div class="section-head reveal">
+          <p class="eyebrow">CURATED WORK</p>
+          <h2 data-i18n="showcaseTitle">Architecture Showcase</h2>
+        </div>
+        <div class="masonry">
+          <article class="project project-large reveal">
+            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=80" alt="Modern Duplex Residence" />
+            <div class="overlay">
+              <h3 data-i18n="project1">Modern Duplex Residence</h3>
+              <p data-i18n="cat1">Duplex House</p>
+            </div>
+          </article>
+          <article class="project reveal">
+            <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80" alt="Luxury Punjabi Villa" />
+            <div class="overlay">
+              <h3 data-i18n="project2">Luxury Punjabi Villa</h3>
+              <p data-i18n="cat2">Bungalow Elevation</p>
+            </div>
+          </article>
+          <article class="project reveal">
+            <img src="https://images.unsplash.com/photo-1605146769289-440113cc3d00?auto=format&fit=crop&w=1200&q=80" alt="Minimal Elevation Concept" />
+            <div class="overlay">
+              <h3 data-i18n="project3">Minimal Elevation Concept</h3>
+              <p data-i18n="cat3">Modern Punjabi Home</p>
+            </div>
+          </article>
+          <article class="project project-tall reveal">
+            <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1200&q=80" alt="Skyline Façade House" />
+            <div class="overlay">
+              <h3 data-i18n="project4">Skyline Façade House</h3>
+              <p data-i18n="cat4">Luxury Villa</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="featured parallax">
+        <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=2000&q=80" alt="Featured Project" class="featured-bg" />
+        <div class="featured-overlay reveal">
+          <p class="eyebrow" data-i18n="featuredTag">Featured Project</p>
+          <h2 data-i18n="featuredTitle">The Courtyard Residence</h2>
+          <p class="meta" data-i18n="featuredMeta">Location: Punjab | Type: Modern Residence</p>
+          <p data-i18n="featuredBody">
+            A layered façade with deep overhangs, warm stone planes, and floating balcony lines creates climate-aware elegance while preserving privacy from the street.
+          </p>
+          <ul>
+            <li data-i18n="highlight1">Double-height entry with screened daylight.</li>
+            <li data-i18n="highlight2">Split-level planning for multigenerational living.</li>
+            <li data-i18n="highlight3">3D visualization aligned with final build drawings.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="instagram" class="instagram-wall">
+        <div class="section-head reveal">
+          <p class="eyebrow">INSTAGRAM BOARD</p>
+          <h2 data-i18n="instaTitle">@pb31_house_designer Inspirations</h2>
+        </div>
+        <div class="board">
+          <img class="reveal" src="https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?auto=format&fit=crop&w=900&q=80" alt="House elevation" />
+          <img class="reveal" src="https://images.unsplash.com/photo-1600607687644-c7171b42498f?auto=format&fit=crop&w=900&q=80" alt="Facade design" />
+          <img class="reveal" src="https://images.unsplash.com/photo-1600563438938-a9a27216b813?auto=format&fit=crop&w=900&q=80" alt="Modern Punjabi house" />
+          <img class="reveal" src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80" alt="Bungalow" />
+          <img class="reveal" src="https://images.unsplash.com/photo-1600573472592-401b489a3cdc?auto=format&fit=crop&w=900&q=80" alt="Elevation board" />
+          <img class="reveal" src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=900&q=80" alt="Luxury house" />
+        </div>
+        <a class="btn btn-primary reveal" href="https://instagram.com/pb31_house_designer" target="_blank" rel="noreferrer" data-i18n="instaCta">
+          View More Designs on Instagram
+        </a>
+      </section>
+
+      <section id="process" class="process">
+        <div class="section-head reveal">
+          <p class="eyebrow">BLUEPRINT FLOW</p>
+          <h2 data-i18n="processTitle">Design Process</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-line"></div>
+          <article class="step reveal">
+            <h3 data-i18n="step1">Consultation</h3>
+            <p data-i18n="step1Body">Understanding plot size and requirements.</p>
+          </article>
+          <article class="step reveal">
+            <h3 data-i18n="step2">Concept Development</h3>
+            <p data-i18n="step2Body">Creating elevation concepts.</p>
+          </article>
+          <article class="step reveal">
+            <h3 data-i18n="step3">3D Visualization</h3>
+            <p data-i18n="step3Body">Photorealistic previews.</p>
+          </article>
+          <article class="step reveal">
+            <h3 data-i18n="step4">Final Design Package</h3>
+            <p data-i18n="step4Body">Construction-ready drawings.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <blockquote class="reveal" data-i18n="quote">
+          "Design House transformed our plot into a stunning modern home design."
+        </blockquote>
+        <div class="profiles reveal">
+          <span></span><span></span><span></span>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="contact-head reveal">
+          <p class="eyebrow">START YOUR PROJECT</p>
+          <h2 data-i18n="contactTitle">Get Your House Designed</h2>
+        </div>
+        <form class="contact-form reveal" action="#" method="post">
+          <label>
+            <span data-i18n="name">Name</span>
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            <span data-i18n="phone">Phone number</span>
+            <input type="tel" name="phone" required />
+          </label>
+          <label>
+            <span data-i18n="plot">Plot size</span>
+            <input type="text" name="plot" required />
+          </label>
+          <label>
+            <span data-i18n="location">Location</span>
+            <input type="text" name="location" required />
+          </label>
+          <label class="full">
+            <span data-i18n="message">Message</span>
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit" data-i18n="contactBtn">Get Your House Designed</button>
+          <a class="btn btn-secondary whatsapp" href="https://wa.me/919999999999" target="_blank" rel="noreferrer" data-i18n="waBtn">
+            WhatsApp Quick Contact
+          </a>
+        </form>
+      </section>
+
+      <footer class="site-footer">
+        <div>
+          <strong>Design House</strong>
+          <p>Creative Architecture Group</p>
+        </div>
+        <div class="footer-links">
+          <a href="#home" data-i18n="navHome">Home</a>
+          <a href="#projects" data-i18n="navProjects">Projects</a>
+          <a href="#process" data-i18n="navServices">Services</a>
+          <a href="#instagram" data-i18n="navInstagram">Instagram</a>
+          <a href="#contact" data-i18n="navContact">Contact</a>
+        </div>
+        <div class="footer-socials">
+          <a href="https://instagram.com/pb31_house_designer" target="_blank" rel="noreferrer">Instagram</a>
+          <a href="https://wa.me/919999999999" target="_blank" rel="noreferrer">WhatsApp</a>
+        </div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

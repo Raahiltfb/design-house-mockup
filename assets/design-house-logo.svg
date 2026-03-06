@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 260" role="img" aria-labelledby="title desc">
+  <title id="title">Design House logo</title>
+  <desc id="desc">Stylized roofline and text for Design House Creative Architecture Group.</desc>
+  <defs>
+    <style>
+      .roof { fill: none; stroke: #8f7760; stroke-width: 12; stroke-linecap: round; stroke-linejoin: round; }
+      .name { font-family: 'Georgia', serif; font-size: 66px; fill: #8f7760; letter-spacing: 3px; }
+      .tag { font-family: 'Arial', sans-serif; font-size: 24px; fill: #b9a792; letter-spacing: 1px; }
+      .win { fill: #8f7760; }
+    </style>
+  </defs>
+  <path class="roof" d="M100 88 L250 24 L410 118 L570 24 L720 88" />
+  <rect class="win" x="220" y="70" width="14" height="14" />
+  <rect class="win" x="240" y="70" width="14" height="14" />
+  <rect class="win" x="220" y="90" width="14" height="14" />
+  <rect class="win" x="240" y="90" width="14" height="14" />
+  <rect class="win" x="560" y="70" width="14" height="14" />
+  <rect class="win" x="580" y="70" width="14" height="14" />
+  <rect class="win" x="560" y="90" width="14" height="14" />
+  <rect class="win" x="580" y="90" width="14" height="14" />
+  <text x="410" y="186" text-anchor="middle" class="name">DESIGN HOUSE</text>
+  <text x="410" y="226" text-anchor="middle" class="tag">Creative Architecture Group</text>
+</svg>
